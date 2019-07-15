@@ -74,7 +74,6 @@
             this.usr_cargoComboBox = new System.Windows.Forms.ComboBox();
             this.picFechar = new System.Windows.Forms.PictureBox();
             this.picMinimizar = new System.Windows.Forms.PictureBox();
-    //        this.tbUsuarioTableAdapter = new Sistema.dbSistemaDataSetTableAdapters.tbUsuarioTableAdapter();
             this.tableAdapterManager = new Sistema.dbSistemaDataSetTableAdapters.TableAdapterManager();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -269,13 +268,13 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = System.Drawing.Color.Maroon;
-            label3.Font = new System.Drawing.Font("Exotc350 Bd BT", 20F);
+            label3.BackColor = System.Drawing.Color.Gold;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             label3.ForeColor = System.Drawing.Color.White;
             label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             label3.Location = new System.Drawing.Point(193, 9);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(227, 31);
+            label3.Size = new System.Drawing.Size(235, 31);
             label3.TabIndex = 78;
             label3.Text = "Cadastrar Usuário";
             // 
@@ -585,7 +584,7 @@
             // 
             // picFechar
             // 
-            this.picFechar.BackColor = System.Drawing.Color.Maroon;
+            this.picFechar.BackColor = System.Drawing.Color.Gold;
             this.picFechar.Image = global::Sistema.Properties.Resources.close_40px;
             this.picFechar.Location = new System.Drawing.Point(651, 9);
             this.picFechar.Name = "picFechar";
@@ -596,7 +595,7 @@
             // 
             // picMinimizar
             // 
-            this.picMinimizar.BackColor = System.Drawing.Color.Maroon;
+            this.picMinimizar.BackColor = System.Drawing.Color.Gold;
             this.picMinimizar.Image = global::Sistema.Properties.Resources.Horizontal_Line_40px1;
             this.picMinimizar.Location = new System.Drawing.Point(618, 19);
             this.picMinimizar.Name = "picMinimizar";
@@ -605,14 +604,11 @@
             this.picMinimizar.TabStop = false;
             this.picMinimizar.Click += new System.EventHandler(this.picMinimizar_Click);
             // 
-            // tbUsuarioTableAdapter
-            // 
-     //       this.tbUsuarioTableAdapter.ClearBeforeFill = true;
-            // 
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-     /*       this.tableAdapterManager.tbAnimalTableAdapter = null;
+            this.tableAdapterManager.Connection = null;
+            this.tableAdapterManager.tbAnimalTableAdapter = null;
             this.tableAdapterManager.tbAnoTableAdapter = null;
             this.tableAdapterManager.tbAplicaçaoTableAdapter = null;
             this.tableAdapterManager.tbAtendimentoTableAdapter = null;
@@ -623,20 +619,23 @@
             this.tableAdapterManager.tbEspecialidadeTableAdapter = null;
             this.tableAdapterManager.tbEspecieTableAdapter = null;
             this.tableAdapterManager.tbEstadoTableAdapter = null;
-            this.tableAdapterManager.tbExameATTableAdapter = null;
-            this.tableAdapterManager.tbIdadeTableAdapter = null;
+            this.tableAdapterManager.tbExameTableAdapter = null;
+            this.tableAdapterManager.tbLançamentoTableAdapter = null;
             this.tableAdapterManager.tbMedicoTableAdapter = null;
             this.tableAdapterManager.tbMesTableAdapter = null;
-            this.tableAdapterManager.tbPesoTableAdapter = null;
             this.tableAdapterManager.tbPrescriçaoTableAdapter = null;
-            this.tableAdapterManager.tbProtocoloATTableAdapter = null;
+            this.tableAdapterManager.tbProtocoloTableAdapter = null;
             this.tableAdapterManager.tbRaçaTableAdapter = null;
             this.tableAdapterManager.tbSexoTableAdapter = null;
+            this.tableAdapterManager.tbSTAnimalTableAdapter = null;
             this.tableAdapterManager.tbSuspeitaTableAdapter = null;
-            this.tableAdapterManager.tbTipoAtendimentoTableAdapter = null;
+            this.tableAdapterManager.tbTPAtendimentoTableAdapter = null;
             this.tableAdapterManager.tbTPExameTableAdapter = null;
+            this.tableAdapterManager.tbTPLançamentoTableAdapter = null;
             this.tableAdapterManager.tbTPProtocoloTableAdapter = null;
-            this.tableAdapterManager.tbUsuarioTableAdapter = this.tbUsuarioTableAdapter; */
+            this.tableAdapterManager.tbTPVacinaTableAdapter = null;
+            this.tableAdapterManager.tbUsuarioTableAdapter = null;
+            this.tableAdapterManager.tbVacinaTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = Sistema.dbSistemaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // pictureBox1
@@ -651,18 +650,18 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Exotc350 Bd BT", 10F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 21);
             this.label1.TabIndex = 103;
-            this.label1.Text = "Nanovet";
+            this.label1.Text = "PetShop";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.BackColor = System.Drawing.Color.Gold;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.picFechar);

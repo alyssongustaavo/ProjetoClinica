@@ -122,7 +122,7 @@ namespace DAL
         {
             DataTable tabela = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter("select c.cli_id, c.cli_nome, c.cli_cpf, c.cli_telefone, c.cli_celular, c.cli_email, c.cli_logradouro, c.cli_numero, c.cli_complemento, c.cli_bairro, cc.cid_descriçao, ee.est_descriçao, c.cli_cadastro from tbCliente AS c inner join tbCidade AS cc  on cc.cid_id = c.cli_cidade inner join tbEstado AS ee on ee.est_id = c.cli_estado ", conexao.StringConexao);
-            da.Fill(tabela);
+          //  da.Fill(tabela);
             return tabela;
         }//pesquisar
 

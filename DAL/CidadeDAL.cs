@@ -58,7 +58,7 @@ namespace DAL
         {
             DataTable tabela = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter("Select * from tbCidade where cid_descriçao like '%' + cid_descriçao + '%'", conexao.StringConexao);
-            da.Fill(tabela);
+            //da.Fill(tabela);
             return tabela;
         }//pesquisar
 

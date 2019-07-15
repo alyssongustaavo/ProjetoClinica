@@ -1,5 +1,4 @@
-﻿// Data de criação 20/02
-// Data de alteração 18/03 - tpate para tipoa
+﻿
 
 namespace DTO
 {

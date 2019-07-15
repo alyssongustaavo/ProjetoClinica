@@ -1,7 +1,4 @@
-﻿// Data de criação 17/03
-// Data de modificação 17/03
-
-namespace DTO
+﻿namespace DTO
 {
     public class PrescriçaoDTO
     {

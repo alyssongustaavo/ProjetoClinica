@@ -58,10 +58,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.picFechar = new System.Windows.Forms.PictureBox();
             this.picMinimizar = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.pnSecundario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnPrincipal.SuspendLayout();
@@ -596,6 +596,20 @@
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnDados_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnDados_MouseUp);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Gold;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(32, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 24);
+            this.label1.TabIndex = 91;
+            this.label1.Text = "PetShop";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Gold;
@@ -627,20 +641,6 @@
             this.picMinimizar.TabIndex = 89;
             this.picMinimizar.TabStop = false;
             this.picMinimizar.Click += new System.EventHandler(this.picMinimizar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gold;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(32, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 24);
-            this.label1.TabIndex = 91;
-            this.label1.Text = "PetShop";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // form_Menu
             // 

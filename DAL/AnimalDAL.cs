@@ -3,8 +3,7 @@ using DTO;
 using System.Data.SqlClient;
 using System.Data;
 
-// Data de revisão 11/02
-// Funcionando OK
+
 
 
 

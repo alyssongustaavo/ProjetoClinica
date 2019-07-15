@@ -1,5 +1,4 @@
-﻿// Data de criação 21/02
-// Data de alteração 21/03 - alterei a estrutura no banco, alterei aqui para comportar o atendimento
+﻿
 
 namespace DTO
 {

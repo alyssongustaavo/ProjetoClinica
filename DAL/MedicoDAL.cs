@@ -112,7 +112,7 @@ namespace DAL
         {
             DataTable tabela = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter("select m.med_id, m.med_nome, m.med_crmv, espec.espec_descriçao, m.med_logradouro, m.med_numero, m.med_complemento, m.med_bairro, c.cid_descriçao, ee.est_descriçao from tbMedico AS m inner join tbCidade AS c on m.med_cidade = c.cid_id inner join tbEstado AS ee on m.med_estado = ee.est_id inner join tbEspecialidade AS espec on m.med_especialidade = espec.espec_id where m.med_nome like '%' + m.med_nome + '%'", conexao.StringConexao);
-            da.Fill(tabela);
+            //da.Fill(tabela);
             return tabela;
         }//pesquisar
 

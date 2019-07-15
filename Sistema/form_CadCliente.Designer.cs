@@ -256,6 +256,7 @@
             // pnBotoes
             // 
             this.pnBotoes.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnBotoes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnBotoes.Controls.Add(this.btnPesquisar);
             this.pnBotoes.Controls.Add(this.btnCancelar);
             this.pnBotoes.Controls.Add(this.btnExcluir);
@@ -361,6 +362,7 @@
             // pnDados
             // 
             this.pnDados.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnDados.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnDados.Controls.Add(this.cli_cadastroDateTimePicker);
             this.pnDados.Controls.Add(cli_cadastroLabel);
             this.pnDados.Controls.Add(cli_idLabel);
@@ -555,6 +557,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gold;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(label1);
@@ -566,6 +569,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::Sistema.Properties.Resources.pet_cat_dog;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -589,6 +593,7 @@
             // picFechar
             // 
             this.picFechar.BackColor = System.Drawing.Color.Gold;
+            this.picFechar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picFechar.Image = global::Sistema.Properties.Resources.close_40px;
             this.picFechar.Location = new System.Drawing.Point(651, 12);
             this.picFechar.Name = "picFechar";
@@ -600,6 +605,7 @@
             // picMinimizar
             // 
             this.picMinimizar.BackColor = System.Drawing.Color.Gold;
+            this.picMinimizar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picMinimizar.Image = global::Sistema.Properties.Resources.Horizontal_Line_40px1;
             this.picMinimizar.Location = new System.Drawing.Point(618, 22);
             this.picMinimizar.Name = "picMinimizar";

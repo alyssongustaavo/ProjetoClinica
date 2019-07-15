@@ -302,6 +302,11 @@ namespace Sistema
                 Form_Cad.Dispose();
             }
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }// class
 
 }// namespace

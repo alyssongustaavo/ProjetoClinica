@@ -4,12 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Data de criação 09/02
-// Data de modificação 09/02
-// 1- Cria os atributos privados | 2 - ctrl + r + e - gerar os gets/sets | 
-// Data de modificação 11/02
-// estava errado o raça dto estava recebendo esp 
-// coloquei o fk esp_id
+
 
 
 namespace DTO

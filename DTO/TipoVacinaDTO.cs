@@ -1,5 +1,4 @@
-﻿// Data de criação 21/03
-// Data de alteração 21/03
+﻿
 
 namespace DTO
 {

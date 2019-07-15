@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Data criação 17/02
-// Data alteração 17/02
 
 //  Modelo de Dados - DTO (Modelo) // OK
 // 1- Cria os atributos privados | 2 - ctrl + r + e - gerar os gets/sets | 

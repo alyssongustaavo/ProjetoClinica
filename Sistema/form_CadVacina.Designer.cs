@@ -102,6 +102,7 @@
             // pnBotoes
             // 
             this.pnBotoes.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnBotoes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnBotoes.Controls.Add(this.btnPesquisar);
             this.pnBotoes.Controls.Add(this.btnCancelar);
             this.pnBotoes.Controls.Add(this.btnExcluir);
@@ -206,6 +207,7 @@
             // pnDados
             // 
             this.pnDados.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnDados.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnDados.Controls.Add(vac_idLabel);
             this.pnDados.Controls.Add(this.vac_idTextBox);
             this.pnDados.Controls.Add(vac_vacinaLabel);
@@ -288,6 +290,7 @@
             // picFechar
             // 
             this.picFechar.BackColor = System.Drawing.Color.Gold;
+            this.picFechar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picFechar.Image = global::Sistema.Properties.Resources.close_40px;
             this.picFechar.Location = new System.Drawing.Point(651, 9);
             this.picFechar.Name = "picFechar";
@@ -299,6 +302,7 @@
             // picMinimizar
             // 
             this.picMinimizar.BackColor = System.Drawing.Color.Gold;
+            this.picMinimizar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picMinimizar.Image = global::Sistema.Properties.Resources.Horizontal_Line_40px1;
             this.picMinimizar.Location = new System.Drawing.Point(618, 19);
             this.picMinimizar.Name = "picMinimizar";
@@ -310,6 +314,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gold;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.picFechar);
@@ -322,6 +327,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::Sistema.Properties.Resources.pet_cat_dog;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";

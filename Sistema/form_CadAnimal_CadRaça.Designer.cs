@@ -120,6 +120,7 @@
             // pnBotoes
             // 
             this.pnBotoes.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnBotoes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnBotoes.Controls.Add(this.btnPesquisar);
             this.pnBotoes.Controls.Add(this.btnCancelar);
             this.pnBotoes.Controls.Add(this.btnExcluir);
@@ -241,6 +242,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox6.Image = global::Sistema.Properties.Resources.close_40px;
             this.pictureBox6.Location = new System.Drawing.Point(651, 8);
             this.pictureBox6.Name = "pictureBox6";
@@ -252,6 +254,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox5.Image = global::Sistema.Properties.Resources.Horizontal_Line_40px1;
             this.pictureBox5.Location = new System.Drawing.Point(618, 18);
             this.pictureBox5.Name = "pictureBox5";
@@ -263,6 +266,7 @@
             // pnDados
             // 
             this.pnDados.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnDados.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnDados.Controls.Add(this.raç_especieComboBox);
             this.pnDados.Controls.Add(this.raç_idTextBox);
             this.pnDados.Controls.Add(this.raç_descriçaoTextBox);
@@ -311,6 +315,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gold;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.pictureBox5);
@@ -323,6 +328,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::Sistema.Properties.Resources.pet_cat_dog;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -399,6 +405,7 @@
             this.Controls.Add(this.pnDados);
             this.Controls.Add(this.pnBotoes);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "form_CadAnimal_CadRaça";
             this.ShowIcon = false;

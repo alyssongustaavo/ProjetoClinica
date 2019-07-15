@@ -3,8 +3,8 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 
-// Data de criação 18/02
-// Data de modificação 18/02
+// Data de criação 18/04
+// Data de modificação 18/04
 
 namespace DAL
 {

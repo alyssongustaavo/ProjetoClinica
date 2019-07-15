@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Data de criação 18/02
-// Data de alteração 18/02
+
 
 
 namespace DTO

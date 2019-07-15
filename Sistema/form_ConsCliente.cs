@@ -39,62 +39,62 @@ namespace Sistema
             
             //------  DEFINE DGV CABEÇALHO----- 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[0].HeaderText = "Código";
+           // dgv_cli.Columns[0].HeaderText = "Código";
             //Altera a largura da coluna
          //   dgv_cli.Columns[0].Width = 50;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[1].HeaderText = "Nome";
+            //dgv_cli.Columns[1].HeaderText = "Nome";
             //Altera a largura da coluna
        //     dgv_cli.Columns[1].Width = 130;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[2].HeaderText = "CPF";
+            //dgv_cli.Columns[2].HeaderText = "CPF";
             //Altera a largura da coluna
      //       dgv_cli.Columns[2].Width = 100;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[3].HeaderText = "Telefone";
+            //dgv_cli.Columns[3].HeaderText = "Telefone";
             //Altera a largura da coluna
       //      dgv_cli.Columns[3].Width = 100;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[4].HeaderText = "Celular";
+            //dgv_cli.Columns[4].HeaderText = "Celular";
             //Altera a largura da coluna
       //      dgv_cli.Columns[4].Width = 100;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[5].HeaderText = "Email";
+            //dgv_cli.Columns[5].HeaderText = "Email";
             //Altera a largura da coluna
       //      dgv_cli.Columns[5].Width = 130;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[6].HeaderText = "Logradouro";
+            //dgv_cli.Columns[6].HeaderText = "Logradouro";
             //Altera a largura da coluna
      //       dgv_cli.Columns[6].Width = 130;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[7].HeaderText = "Numero";
+            //dgv_cli.Columns[7].HeaderText = "Numero";
             //Altera a largura da coluna
      //       dgv_cli.Columns[7].Width = 50;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[8].HeaderText = "Complemento";
+            //dgv_cli.Columns[8].HeaderText = "Complemento";
             //Altera a largura da coluna
      //       dgv_cli.Columns[8].Width = 80;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[9].HeaderText = "Bairro";
+            //dgv_cli.Columns[9].HeaderText = "Bairro";
             //Altera a largura da coluna
      //       dgv_cli.Columns[9].Width = 100;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[10].HeaderText = "Cidade";
+            //dgv_cli.Columns[10].HeaderText = "Cidade";
             //Altera a largura da coluna
     //        dgv_cli.Columns[10].Width = 80;
 
             //Altera o cabeçalho da coluna
-            dgv_cli.Columns[11].HeaderText = "Estado";
+            //dgv_cli.Columns[11].HeaderText = "Estado";
             //Altera a largura da coluna
     //        dgv_cli.Columns[11].Width = 50;
               

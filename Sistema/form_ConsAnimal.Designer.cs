@@ -68,7 +68,7 @@
             // label6
             // 
             resources.ApplyResources(label6, "label6");
-            label6.BackColor = System.Drawing.Color.Maroon;
+            label6.BackColor = System.Drawing.Color.Gold;
             label6.ForeColor = System.Drawing.Color.White;
             label6.Name = "label6";
             // 
@@ -94,7 +94,7 @@
             // 
             // picMinimizar
             // 
-            this.picMinimizar.BackColor = System.Drawing.Color.Maroon;
+            this.picMinimizar.BackColor = System.Drawing.Color.Gold;
             this.picMinimizar.Image = global::Sistema.Properties.Resources.Horizontal_Line_40px1;
             resources.ApplyResources(this.picMinimizar, "picMinimizar");
             this.picMinimizar.Name = "picMinimizar";
@@ -103,7 +103,7 @@
             // 
             // picFechar
             // 
-            this.picFechar.BackColor = System.Drawing.Color.Maroon;
+            this.picFechar.BackColor = System.Drawing.Color.Gold;
             this.picFechar.Image = global::Sistema.Properties.Resources.close_40px;
             resources.ApplyResources(this.picFechar, "picFechar");
             this.picFechar.Name = "picFechar";
@@ -131,15 +131,14 @@
             this.tableAdapterManager.tbEspecieTableAdapter = null;
             this.tableAdapterManager.tbEstadoTableAdapter = null;
             this.tableAdapterManager.tbExameTableAdapter = null;
-    //        this.tableAdapterManager.tbIdadeTableAdapter = null;
             this.tableAdapterManager.tbLançamentoTableAdapter = null;
             this.tableAdapterManager.tbMedicoTableAdapter = null;
             this.tableAdapterManager.tbMesTableAdapter = null;
-      //      this.tableAdapterManager.tbPesoTableAdapter = null;
             this.tableAdapterManager.tbPrescriçaoTableAdapter = null;
             this.tableAdapterManager.tbProtocoloTableAdapter = null;
             this.tableAdapterManager.tbRaçaTableAdapter = null;
             this.tableAdapterManager.tbSexoTableAdapter = null;
+            this.tableAdapterManager.tbSTAnimalTableAdapter = null;
             this.tableAdapterManager.tbSuspeitaTableAdapter = null;
             this.tableAdapterManager.tbTPAtendimentoTableAdapter = null;
             this.tableAdapterManager.tbTPExameTableAdapter = null;
@@ -211,7 +210,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.BackColor = System.Drawing.Color.Gold;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(label6);

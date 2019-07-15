@@ -1,5 +1,4 @@
-﻿// Data de criação 21/02
-// Data de alteração 15/03 - adicionei o tipo exame e coloquei o exame com o atendimento
+﻿
 
 namespace DTO
 {

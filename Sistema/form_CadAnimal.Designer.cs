@@ -242,6 +242,7 @@
             // pnBotoes
             // 
             this.pnBotoes.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnBotoes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnBotoes.Controls.Add(this.btnCancelar);
             this.pnBotoes.Controls.Add(this.btnExcluir);
             this.pnBotoes.Controls.Add(this.btnSalvar);
@@ -353,6 +354,7 @@
             // pnDados
             // 
             this.pnDados.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnDados.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnDados.Controls.Add(this.btnPesquisarClientee);
             this.pnDados.Controls.Add(this.ani_statusComboBox);
             this.pnDados.Controls.Add(ani_statusLabel);
@@ -392,7 +394,7 @@
             this.btnPesquisarClientee.BackColor = System.Drawing.Color.White;
             this.btnPesquisarClientee.Image = global::Sistema.Properties.Resources.Search_20px;
             this.btnPesquisarClientee.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnPesquisarClientee.Location = new System.Drawing.Point(278, 78);
+            this.btnPesquisarClientee.Location = new System.Drawing.Point(276, 76);
             this.btnPesquisarClientee.Name = "btnPesquisarClientee";
             this.btnPesquisarClientee.Size = new System.Drawing.Size(50, 25);
             this.btnPesquisarClientee.TabIndex = 107;
@@ -502,7 +504,7 @@
             this.btnPesquisarCliente.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnPesquisarCliente.Location = new System.Drawing.Point(278, 78);
             this.btnPesquisarCliente.Name = "btnPesquisarCliente";
-            this.btnPesquisarCliente.Size = new System.Drawing.Size(0, 25);
+            this.btnPesquisarCliente.Size = new System.Drawing.Size(0, 23);
             this.btnPesquisarCliente.TabIndex = 2;
             this.btnPesquisarCliente.UseVisualStyleBackColor = false;
             // 
@@ -607,6 +609,7 @@
             // picFechar
             // 
             this.picFechar.BackColor = System.Drawing.Color.Gold;
+            this.picFechar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picFechar.Image = global::Sistema.Properties.Resources.close_40px;
             this.picFechar.Location = new System.Drawing.Point(651, 9);
             this.picFechar.Name = "picFechar";
@@ -618,6 +621,7 @@
             // picMinimizar
             // 
             this.picMinimizar.BackColor = System.Drawing.Color.Gold;
+            this.picMinimizar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picMinimizar.Image = global::Sistema.Properties.Resources.Horizontal_Line_40px1;
             this.picMinimizar.Location = new System.Drawing.Point(618, 19);
             this.picMinimizar.Name = "picMinimizar";
@@ -629,6 +633,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gold;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(label1);
@@ -638,9 +643,11 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(700, 50);
             this.panel1.TabIndex = 89;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::Sistema.Properties.Resources.pet_cat_dog;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
